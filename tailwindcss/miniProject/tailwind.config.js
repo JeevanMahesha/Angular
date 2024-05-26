@@ -2,7 +2,11 @@
 module.exports = {
   content: [],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        headlineOswald: ['Oswald']
+      }
+    },
     debugScreens: {
       position: ['top', 'left'],
     },

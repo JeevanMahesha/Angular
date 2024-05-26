@@ -3,13 +3,17 @@
 @tailwind utilities;
 
 @layer base {
+  @font-face {
+    font-family: Oswald;
+    src: url(./dist/fonts/oswald/Oswald-Bold.ttf) format("truetype");
+  }
   h1 {
-    @apply text-5xl;
+    @apply mb-6 text-5xl font-headlineOswald;
   }
   h2 {
-    @apply text-3xl;
+    @apply mb-3 text-3xl font-headlineOswald;
   }
   h3 {
-    @apply text-2xl;
+    @apply mb-2 text-2xl font-headlineOswald;
   }
 }
