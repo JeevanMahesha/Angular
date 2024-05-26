@@ -1,4 +1,8 @@
 {
+  "scripts": {
+    "build": "postcss tailwind.css -o dist/css/styles.css",
+    "watch": "postcss tailwind.css -o dist/css/styles.css --watch"
+  },
   "dependencies": {
     "@fullhuman/postcss-purgecss": "^4.0.0",
     "autoprefixer": "^10.1.0",
