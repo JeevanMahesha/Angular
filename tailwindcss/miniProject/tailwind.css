@@ -8,12 +8,12 @@
     src: url(./dist/fonts/oswald/Oswald-Bold.ttf) format("truetype");
   }
   h1 {
-    @apply mb-6 text-5xl font-headlineOswald;
+    @apply mb-6 text-5xl font-headlineOswald text-mainColor;
   }
   h2 {
-    @apply mb-3 text-3xl font-headlineOswald;
+    @apply mb-3 text-3xl font-headlineOswald text-mainColor;
   }
   h3 {
-    @apply mb-2 text-2xl font-headlineOswald;
+    @apply mb-2 text-2xl font-headlineOswald text-mainColor;
   }
 }
